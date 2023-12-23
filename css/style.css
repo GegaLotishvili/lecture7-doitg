@@ -1,0 +1,22 @@
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+
+.child {
+    width: 200px;
+    height: 70px;
+    background-color: blueviolet;
+    overflow: scroll;
+    transition: all 2s;
+}
+
+/* .child:hover {
+    height: 200px;
+} */
